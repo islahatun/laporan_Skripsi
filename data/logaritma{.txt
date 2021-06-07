@@ -1,0 +1,48 @@
+melakuukan login sistem{
+    memasukkan nama orgaisasi dan password{
+        if((username && password)== true){
+		if(sebagai.equals(“ormawa”){
+			menampilkan halaman utama ormawa
+		}else if(sebagai.equals(“DPM”){
+			menampilkan halaman utama DPM
+		}else if(sebagai.equals(“BEM”){
+            menampilkan halaman utama BEM
+        } else if(sebagai.equals(“KaProdi”){
+            menampilkan halaman utama kaprodi
+        } else if(sebagai.equals(“Kabag Kemahasiswaan”){
+            menampilkan halaman utama kemahasiswaan
+        } else {
+             menampilkan halaman utama warek3
+        }
+    } 
+    masuk sebagai kemahasiswaan {
+        melakukan kelola data pengguna{
+            menginput data pengguna{
+                
+            }
+            mengubah data pengguna{
+
+            }
+            menghapus data penggguna{
+                
+            }
+        }
+
+    }
+    masuk sebagai ormawa{
+
+    }
+    masuk sebagai dpm{
+
+    }
+    masuk sebagai kaprodi{
+
+    }
+    masuks sebagai bem{
+        
+    }
+    masuk sebagai warek{
+
+    }
+}
+
