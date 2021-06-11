@@ -1,4 +1,5 @@
-melakuukan login sistem{
+mulai
+melakukan login sistem{
     memasukkan nama orgaisasi dan password{
         if((username && password)== true){
 		if(sebagai.equals(“ormawa”){
@@ -18,31 +19,462 @@ melakuukan login sistem{
     masuk sebagai kemahasiswaan {
         melakukan kelola data pengguna{
             menginput data pengguna{
-                
+                tampil form pengguna
+                input data, simpan
+                if (data kosong){
+                    menampilka data tidak boleh kosong
+                } else{
+                   data tersimpan, menampilkan pesan sukses
+                }
             }
             mengubah data pengguna{
-
+                pilih tombol ubah{
+                    tampil form ubah 
+                    input data, simpan
+                    if (data tidak ada yang di ubah){
+                        tampil data semula
+                    }else{
+                        data terubah 
+                    }
+                }
             }
             menghapus data penggguna{
-                
+                pilih tombol hapus{
+                    data terhapus
+                }
+            }
+            menyetujui rak{
+                tampil tabel rak{
+                    klik tombol detail{
+                        acc
+                    }
+                }
+            }
+            menyetujui proposal{
+                tampil daftar pengajuan proposal
+                klik tombol detai{
+                    if (acc){
+                        data tersimpan, menampilkan pesan sukses
+                    }else{
+                        input revisi, kirim
+                        if{revisi kosong}{
+                           menampilkan data tidak boleh kosong
+                        }
+                        else{
+                            data tersimpan, menampilkan data terkirim
+                        }
+                    }
+                }
+            }
+            menyetujui lpj{
+                tampil daftar pengajuan proposal
+                klik tombol detai{
+                    if (acc){
+                        data tersimpan, menampilkan pesan sukses
+                    }{
+                        input revisi, kirim
+                        if{revisi kosong}{
+                           menampilkan data tidak boleh kosong
+                        }
+                        else{
+                            data tersimpan, menampilkan data terkirim
+                        }
+                    }
+                }
+            }
+            membuat pengumuan{
+                tampil form pengumuman{
+                    input data, kirim
+                if(data kosong){
+                    menmpilkan data tidak boleh kososng
+                } else{
+                    data tersimpan, menampilkan pesn terkirim
+                }
+                }
             }
         }
 
     }
     masuk sebagai ormawa{
-
+        membuat profil organisasi{
+            input profil{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh kososng
+                }else{
+                    data tersimpan, menmpilkan pesan sukses
+                }
+            }
+            input data anggota{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh
+                }else{
+                    data tersimpan, menampilkan pesan sukses
+                }
+            }
+        }
+        membuat pengajuan rak{
+            input data rak{
+                tampil form rak
+                input, simpan
+                if (data kosong){
+                    menampilkan pesan data tidak boleh kosong
+                }else{
+                    data tersimpan, menampilkan pesan sukses
+                }
+            }
+            kirim rak{
+                tampil tabel rak
+                kirim
+                menampilkan pesan terkirim
+            }
+        }
+        membuat pengajuan kegiatan{
+            pengajuan proposal{
+                tampil form lembar pendahuluan
+                    input data, simpan
+                        if(data kosong){
+                            menampilkan pesan data tidak boleh kosong
+                        }else{
+                            data tersimpan, menmapilkan pesan sukses
+                        }
+                tampil form lembar panitia{
+                    input data,simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                }
+                tampil form jadwal kegiatan{
+                    input data, simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                }
+                tampil form anggaran{
+                    input data, simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                    kirim proposal
+                }
+            }
+            pengajuan lpj{
+                tampil form lembar pendahuluan
+                    input data, simpan
+                        if(data kosong){
+                            menampilkan pesan data tidak boleh kosong
+                        }else{
+                            data tersimpan, menmapilkan pesan sukses
+                        }
+                tampil form lembar panitia{
+                    menampilkan data panitia
+                }
+                tampil form jadwal kegiatan{
+                    input data, simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                }
+                tampil form anggaran{
+                    input data, simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                }
+                tampil form lampiran{
+                    input data, simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                    kirim lpj
+                }
+            }
+            membuat artikel{
+                tampil form artikel{
+                    input data, kirim
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                }
+            }
+        }
     }
     masuk sebagai dpm{
-
+        membuat profil organisasi{
+            input profil{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh kososng
+                }else{
+                    data tersimpan, menmpilkan pesan sukses
+                }
+            }
+            input data anggota{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh
+                }else{
+                    data tersimpan, menampilkan pesan sukses
+                }
+            }
+        }
+        menyetujui rak{
+                tampil tabel rak{
+                    klik tombol detail{
+                        acc
+                    }
+                }
+            }
     }
     masuk sebagai kaprodi{
-
+        menyetujui proposal{
+                tampil daftar pengajuan proposal
+                klik tombol detai{
+                    if (acc){
+                        data tersimpan, menampilkan pesan sukses
+                    }else{
+                        input revisi, kirim
+                        if{revisi kosong}{
+                           menampilkan data tidak boleh kosong
+                        }
+                        else{
+                            data tersimpan, menampilkan data terkirim
+                        }
+                    }
+                }
+            }
+            menyetujui lpj{
+                tampil daftar pengajuan proposal
+                klik tombol detai{
+                    if (acc){
+                        data tersimpan, menampilkan pesan sukses
+                    }else{
+                        input revisi, kirim
+                        if{revisi kosong}{
+                           menampilkan data tidak boleh kosong
+                        }
+                        else{
+                            data tersimpan, menampilkan data terkirim
+                        }
+                    }
+                }
+            }
     }
     masuks sebagai bem{
-        
+        membuat profil organisasi{
+            input profil{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh kososng
+                }else{
+                    data tersimpan, menmpilkan pesan sukses
+                }
+            }
+            input data anggota{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh
+                }else{
+                    data tersimpan, menampilkan pesan sukses
+                }
+            }
+        }
+        membuat pengajuan rak{
+            input data rak{
+                tampil form rak
+                input, simpan
+                if (data kosong){
+                    menampilkan pesan data tidak boleh kosong
+                }else{
+                    data tersimpan, menampilkan pesan sukses
+                }
+            }
+            kirim rak{
+                tampil tabel rak
+                kirim
+                menampilkan pesan terkirim
+            }
+        }
+        membuat pengajuan kegiatan{
+            pengajuan proposal{
+                tampil form lembar pendahuluan
+                    input data, simpan
+                        if(data kosong){
+                            menampilkan pesan data tidak boleh kosong
+                        }else{
+                            data tersimpan, menmapilkan pesan sukses
+                        }
+                tampil form lembar panitia{
+                    input data,simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                }
+                tampil form jadwal kegiatan{
+                    input data, simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                }
+                tampil form anggaran{
+                    input data, simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                    kirim proposal
+                }
+            }
+            pengajuan lpj{
+                tampil form lembar pendahuluan
+                    input data, simpan
+                        if(data kosong){
+                            menampilkan pesan data tidak boleh kosong
+                        }else{
+                            data tersimpan, menmapilkan pesan sukses
+                        }
+                tampil form lembar panitia{
+                    menampilkan data panitia
+                }
+                tampil form jadwal kegiatan{
+                    input data, simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                }
+                tampil form anggaran{
+                    input data, simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                }
+                tampil form lampiran{
+                    input data, simpan
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                    kirim lpj
+                }
+            }
+            membuat artikel{
+                tampil form artikel{
+                    input data, kirim
+                    if(data kosong){
+                        menampilkan pesan data tidak boleh kosong
+                    }
+                    else{
+                        data tersimpan, menmapilkan pesan sukses
+                    }
+                }
+            }
+            menyetujui proposal{
+                tampil daftar pengajuan proposal
+                klik tombol detai{
+                    if (acc){
+                        data tersimpan, menampilkan pesan sukses
+                    }else{
+                        input revisi, kirim
+                        if{revisi kosong}{
+                           menampilkan data tidak boleh kosong
+                        }
+                        else{
+                            data tersimpan, menampilkan data terkirim
+                        }
+                    }
+                }
+            }
+            menyetujui lpj{
+                tampil daftar pengajuan proposal
+                klik tombol detai{
+                    if (acc){
+                        data tersimpan, menampilkan pesan sukses
+                    }else{
+                        input revisi, kirim
+                        if{revisi kosong}{
+                           menampilkan data tidak boleh kosong
+                        }
+                        else{
+                            data tersimpan, menampilkan data terkirim
+                        }
+                    }
+                }
+            }
+        }
     }
-    masuk sebagai warek{
-
+    masuk sebagai biro akademik{
+        menyetujui proposal{
+                tampil daftar pengajuan proposal
+                klik tombol detai{
+                    if (acc){
+                        data tersimpan, menampilkan pesan sukses
+                    }else{
+                        input revisi, kirim
+                        if{revisi kosong}{
+                           menampilkan data tidak boleh kosong
+                        }
+                        else{
+                            data tersimpan, menampilkan data terkirim
+                        }
+                    }
+                }
+            }
+            menyetujui lpj{
+                tampil daftar pengajuan proposal
+                klik tombol detai{
+                    if (acc){
+                        data tersimpan, menampilkan pesan sukses
+                    }else{
+                        input revisi, kirim
+                        if{revisi kosong}{
+                           menampilkan data tidak boleh kosong
+                        }
+                        else{
+                            data tersimpan, menampilkan data terkirim
+                        }
+                    }
+                }
+            }
     }
+logout
 }
+selesai
 
