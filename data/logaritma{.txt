@@ -43,6 +43,24 @@ melakukan login sistem{
                     data terhapus
                 }
             }
+            membuat profil organisasi{
+            input profil{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh kososng
+                }else{
+                    data tersimpan, menmpilkan pesan sukses
+                }
+            }
+            input data anggota{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh
+                }else{
+                    data tersimpan, menampilkan pesan sukses
+                }
+            }
+        }
             menyetujui rak{
                 tampil tabel rak{
                     klik tombol detail{
@@ -231,6 +249,15 @@ melakukan login sistem{
                     data tersimpan, menmpilkan pesan sukses
                 }
             }
+            membuat profil organisasi{
+            input profil{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh kososng
+                }else{
+                    data tersimpan, menmpilkan pesan sukses
+                }
+            }
             input data anggota{
                 input data, simpan
                 if(data kosong){
@@ -239,6 +266,7 @@ melakukan login sistem{
                     data tersimpan, menampilkan pesan sukses
                 }
             }
+        }
         }
         menyetujui rak{
                 tampil tabel rak{
@@ -249,6 +277,24 @@ melakukan login sistem{
             }
     }
     masuk sebagai kaprodi{
+        membuat profil organisasi{
+            input profil{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh kososng
+                }else{
+                    data tersimpan, menmpilkan pesan sukses
+                }
+            }
+            input data anggota{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh
+                }else{
+                    data tersimpan, menampilkan pesan sukses
+                }
+            }
+        }
         menyetujui proposal{
                 tampil daftar pengajuan proposal
                 klik tombol detai{
@@ -441,6 +487,24 @@ melakukan login sistem{
         }
     }
     masuk sebagai biro akademik{
+        membuat profil organisasi{
+            input profil{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh kososng
+                }else{
+                    data tersimpan, menmpilkan pesan sukses
+                }
+            }
+            input data anggota{
+                input data, simpan
+                if(data kosong){
+                    menampilkan data tidak boleh
+                }else{
+                    data tersimpan, menampilkan pesan sukses
+                }
+            }
+        }
         menyetujui proposal{
                 tampil daftar pengajuan proposal
                 klik tombol detai{
@@ -458,6 +522,22 @@ melakukan login sistem{
                 }
             }
             menyetujui lpj{
+                tampil daftar pengajuan proposal
+                klik tombol detai{
+                    if (acc){
+                        data tersimpan, menampilkan pesan sukses
+                    }else{
+                        input revisi, kirim
+                        if{revisi kosong}{
+                           menampilkan data tidak boleh kosong
+                        }
+                        else{
+                            data tersimpan, menampilkan data terkirim
+                        }
+                    }
+                }
+            }
+            menyetujui artikel{
                 tampil daftar pengajuan proposal
                 klik tombol detai{
                     if (acc){
