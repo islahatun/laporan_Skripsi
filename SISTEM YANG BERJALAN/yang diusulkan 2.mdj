@@ -5031,7 +5031,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 96,
+											"left": 464,
+											"top": -16,
 											"height": 13
 										},
 										{
@@ -5041,9 +5042,9 @@
 												"$ref": "AAAAAAF6HRWp+L9CWys="
 											},
 											"font": "Arial;13;1",
-											"left": 77,
-											"top": 15,
-											"width": 1127,
+											"left": 261,
+											"top": 7,
+											"width": 1207,
 											"height": 13,
 											"text": "."
 										},
@@ -5055,7 +5056,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 96,
+											"left": 464,
+											"top": -16,
 											"width": 80.9072265625,
 											"height": 13,
 											"text": "(from Model1)"
@@ -5068,15 +5070,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 96,
+											"left": 464,
+											"top": -16,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 72,
-									"top": 8,
-									"width": 1137,
+									"left": 256,
+									"width": 1217,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF6HRWp+L9D6NQ="
@@ -5093,9 +5095,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 72,
-							"top": 8,
-							"width": 1137,
+							"left": 256,
+							"width": 1217,
 							"height": 601,
 							"nameCompartment": {
 								"$ref": "AAAAAAF6HRWp+L9CWys="
