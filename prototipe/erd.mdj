@@ -3818,6 +3818,24 @@
 					]
 				}
 			]
+		},
+		{
+			"_type": "ERDDataModel",
+			"_id": "AAAAAAF6o8oyWwX371U=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Data Model2",
+			"ownedElements": [
+				{
+					"_type": "ERDDiagram",
+					"_id": "AAAAAAF6o8oyXAX4fak=",
+					"_parent": {
+						"$ref": "AAAAAAF6o8oyWwX371U="
+					},
+					"name": "ERDDiagram1"
+				}
+			]
 		}
 	]
 }
